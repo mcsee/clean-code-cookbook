@@ -1,2 +1,5 @@
-# clean-code-cookbook
+# clean-code-cookbook companion
+
 Repository for clean code cookbook
+
+[Clean Code Cookbook](www.cleancodecookbook.com)
