@@ -1,0 +1,9 @@
+{
+    "id": 2,
+    "userId": 666, 
+    "accountNumber": "12345-12345-12345",
+    "updatedAt": "2022-01-07T02:23:41.305Z",
+    "createdAt": "2019-01-07T02:23:41.305Z",
+    "deletedAt": "2022-01-07T02:23:41.305Z"
+  // This doesn't mean THIS standard is the right one
+}

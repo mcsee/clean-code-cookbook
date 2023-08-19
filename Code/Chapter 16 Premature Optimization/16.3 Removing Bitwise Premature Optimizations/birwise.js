@@ -1,0 +1,1 @@
+const nowInSeconds = ~~(Date.now() / 1000)

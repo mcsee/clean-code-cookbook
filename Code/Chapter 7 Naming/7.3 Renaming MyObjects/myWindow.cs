@@ -1,0 +1,1 @@
+MainWindow myWindow = Application.Current.MainWindow as MainWindow;
