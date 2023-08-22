@@ -1,4 +1,4 @@
 # Sources for Chapter 15 Null - 15.2 Removing Optional Chaining
 
-[https://gist.github.com/mcsee/7f97455e51c8cd89319117103b25bda5](https://gist.github.com/mcsee/7f97455e51c8cd89319117103b25bda5)
-[https://gist.github.com/mcsee/df8b74e09cd2bc4ee69e7b9197585a0a](https://gist.github.com/mcsee/df8b74e09cd2bc4ee69e7b9197585a0a)
+[https://gist.github.com/mcsee/a976521e75a08ca0c57cb0153039e67e](https://gist.github.com/mcsee/a976521e75a08ca0c57cb0153039e67e)
+[https://gist.github.com/mcsee/1f0771dc50c77d39c6577405142e52e8](https://gist.github.com/mcsee/1f0771dc50c77d39c6577405142e52e8)
