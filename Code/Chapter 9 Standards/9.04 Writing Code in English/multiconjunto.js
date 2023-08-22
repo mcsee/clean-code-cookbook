@@ -17,4 +17,16 @@ moreElements.agregar('hello');
 echo moreElements.size() yields 2 // Since it is a multiset
 
 // elements and moreElements are NOT polymorphic
-// I cannot exchange their implementation
+// You cannot exchange their implementation
+
+class Person {
+    constructor() {
+        this.visitedCities = new Set();
+   }
+
+    visitCity(city) {
+        this.visitedCities.add(city);
+        // Breaks if you change the set (expecting ‘add()’)
+        // with a MultiConjunto (expecting ‘agregar()’)
+    }
+}

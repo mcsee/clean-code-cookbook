@@ -1,24 +1,19 @@
-#include "stdio.h"
-#include "stdlib.h"
-#include "stdbool.h"
-// No INVALID_VALUE defined
-
 int main(void)
 {    
     int id;
     id = get_value();
-    if (!id) 
+    if (id < 0) 
     { 
+        printf("Error: Failed to obtain value\n");
         return EXIT_FAILURE;
-        // Sadly, C Programming Language has no exceptions
     }  
     return id;
 }  
 
-get_value() 
+int get_value() 
 {
   // something bad happened
-  return false;
+  return -1; // Return a negative value to indicate error
 }
 
-// returns EXIT_FAILURE (1)
+// No INVALID_VALUE defined

@@ -14,8 +14,8 @@ class Measure:
 centimetersUnit = Unit("centimeters", "cm")
 inchesUnit = Unit("inches", "in")
 
-tencCentimeters = Measure(10, centimeters)
-tenInches = Measure(10, inches)
+tenCentimeters = Measure(10, centimetersUnit)
+tenInches = Measure(10, inchesUnit)
 
 tenCentimeters + tenInches
 # error until we introduce a conversion factor

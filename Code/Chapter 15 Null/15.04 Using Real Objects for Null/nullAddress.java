@@ -5,7 +5,7 @@ abstract class Address {
 }
 
 // Using inheritance for null objects is a mistake
-// We should use interfaces (when available)
+// You should use interfaces (when available)
 public class NullAddress extends Address {
 	
 	public NullAddress() { }
@@ -47,5 +47,4 @@ public class RealAddress extends Address {
 	public String getState() {
 		return state;
 	}
-
 }

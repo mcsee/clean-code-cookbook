@@ -12,8 +12,8 @@ public class Person {
     private final Name name; 
 
     public Person(Name name) {
-        // name is created as a valid one,
-        // we don't need to add validations here 
+        // Name is created as a valid one,
+        // you don't need to add validations here 
         this.name = name;
     }
 }

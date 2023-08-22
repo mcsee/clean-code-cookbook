@@ -1,8 +1,5 @@
-array = [];
-console.log(array['1'])
-// undefined but keep going on
+undefinedVariable = 310;
 
-hiddenGlobal = "I am a global"
+console.log(undefinedVariable); // Output: 310
 
-console.log(hiddenGlobal)
-//  I'm a global
+delete x; // No error you can delete undefinedVariable

@@ -1,13 +1,6 @@
-array = [];
-console.log(array['1'])
-// Index Error
+’use strict’
 
-noGlobal = "I am not a global"
+undefinedVariable = 310;
+console.log(undefinedVariable); // undefinedVariable is not defined
 
-console.log(noGlobal)
-// ReferenceError
-
-var noGlobal = "I am not a global"
-
-console.log(noGlobal)
-// I am not a global
+delete undefinedVariable ; // Delete of an unqualified identifier in strict mode

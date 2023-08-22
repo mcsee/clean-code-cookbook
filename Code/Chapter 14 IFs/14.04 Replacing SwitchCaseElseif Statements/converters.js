@@ -1,6 +1,5 @@
-Class Mp3Converter {
-
-  public convertToMp3(source, String mimeType) {
+class Mp3Converter {
+  convertToMp3(source, mimeType) {
     if(mimeType.equals("audio/mpeg")) {
         this.convertMpegToMp3(source)
     } else if(mimeType.equals("audio/wav")) {
@@ -8,5 +7,5 @@ Class Mp3Converter {
     } else if(mimeType.equals("audio/ogg")) {
         this.convertOggToMp3(source)
     } else if(...) {
-        // Lots of new elses
+        // Lots of new clauses
 }

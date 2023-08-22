@@ -4,5 +4,4 @@ class DateStringHelper {
   }
 }
 
-
 DateStringHelper.format(new Date());

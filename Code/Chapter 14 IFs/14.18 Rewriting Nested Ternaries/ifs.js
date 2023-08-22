@@ -7,7 +7,10 @@ const getUnits = secs => {
  return 'years' 
 }
 
-// More declarative
+// This is using ‘Numeric Separators’ notation from Javascript
+// to favor readability.
+// The underscores are ignored by the JavaScript engine
+// and do not affect the value of the number.
 
 const getUnits = secs => {
  if (secs <= 60) return 'seconds'; 
@@ -17,3 +20,6 @@ const getUnits = secs => {
  if (secs <= 12 * 30 * 24 * 60 * 60) return 'months';  
  return 'years' 
 }
+
+// You can read the premature optimization chapter to find out
+// if this brings a considerable performance penalty

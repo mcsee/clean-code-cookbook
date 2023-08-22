@@ -1,7 +1,6 @@
-if (address.street == 'Broad Street') {
-  
+if (address.street == 'Broad Street') { }  
 
-if (location.street == 'Bourbon St') {
+if (location.street == 'Bourbon St') { }
   
-// 15000 usages in a big system  
+// 24601 usages in a big system  
 // Comparisons are case sensitive

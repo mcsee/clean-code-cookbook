@@ -1,6 +1,5 @@
 <?
 
 function parseArguments(array $arguments) {
-    $this->arguments = $arguments;
-    // much cleaner, isn't it ?
+    $this->arguments = http_build_query(arguments)    
 }

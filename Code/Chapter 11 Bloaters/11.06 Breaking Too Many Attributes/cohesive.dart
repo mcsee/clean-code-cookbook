@@ -9,6 +9,8 @@ class ExcelSheet {
 
 // Object has less attributes
 // They are not only grouped for testability
-// New objects are more cohesive, more testable, less conflicts and more reusable
+// New objects are more cohesive, more testable, 
+// less conflicts and more reusable
 // FileProperties/SecurityProperties can be reused for other documents
-// Rules and preconditions on fileProperties will be moved to this object so ExcelSheet constructor will be cleaner
+// Rules and preconditions on fileProperties will be moved to this object 
+// so ExcelSheet constructor will be cleaner

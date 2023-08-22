@@ -25,7 +25,8 @@ public:
         // Instead of closing the file we throw an exception 
         // If it is open (which is an invalid scenario)
         if (file_) {
-            throw std::logic_error("File is still open in destructor");
+            throw std::logic_error(
+                "File is still open after reaching its destructor");
         }
     }
     

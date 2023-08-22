@@ -6,7 +6,7 @@ function dummy() {
 
     while ($flag == true) {
 
-        $result = doSomething();
+        $result = checkSomething();
         if ($result) {
             $flag = false;
         }

@@ -7,4 +7,5 @@ public class MyDomainObject sum(MyCollection anObjectThatCanBeIterated) {
  // Tight coupling
 }
 
-// We cannot fake or mock this method since it always expects an instance of MyCollection
+// We cannot fake or mock this method 
+// since it always expects an instance of MyCollection

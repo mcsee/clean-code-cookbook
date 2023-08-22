@@ -7,4 +7,4 @@ public class Car {
     }
 }
 
-// Wait until more vehicles are discovered
+// Wait until you discover more concrete vehicles

@@ -1,9 +1,9 @@
-Collection<Integer> people = new ArrayList<>();
 // here we add elements to the collection...
+Collection<Integer> people = new ArrayList<>();
   
 for (Object person : people) {
     if (condition(person)) {
         people.remove(person);
     }
 }
-// We iterate AND remove elements
+// You iterate AND remove elements, elements, risking skipping other candidates for removal

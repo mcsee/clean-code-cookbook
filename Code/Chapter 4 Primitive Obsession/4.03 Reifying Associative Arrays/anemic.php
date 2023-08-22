@@ -2,9 +2,9 @@
 
 final class GeographicCoordinate {
 
-    function __construct($latitude, $longitude) {
-        $this->longitude = $longitude;
-        $this->latitude = $latitude;
+    function __construct($latitudeInDegrees, $longitudeInDegrees) {
+        $this->longitude = $longitudeInDegress;
+        $this->latitude = $latitudeInDegress;
     }
 }
 

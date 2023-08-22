@@ -1,11 +1,6 @@
-function giveFirstDoseOfVaccine(person, vaccine) {
-  //
-}
+function giveFirstDoseOfVaccine(person, vaccine) { }
 
-function giveSecondDoseOfVaccine(person, vaccine) {
-  //
-}
+function giveSecondDoseOfVaccine(person, vaccine) { }
 
-
-giveFirstDoseOfVaccine(jane, pfizer);
-giveSecondDoseOfVaccine(jane, pfizer);  // Jane is immunized
+giveFirstDoseOfVaccine(jane, flu);
+giveSecondDoseOfVaccine(jane, flu); 

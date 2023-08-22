@@ -6,4 +6,4 @@ System.out.println("Line total: " + total );
 total = order.getTotal() - order.getDiscount();
 System.out.println( "Amount due: " + total );
 
-// variable is reused
+// 'total' variable is reused

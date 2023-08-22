@@ -4,7 +4,7 @@ function translateFile() {
     $this->buildFilename();
     $this->readFile();
     $this->assertFileContentsAreOk();
-    // A lot of lines more
+    // A lot of more lines
     
     // Empty space to pause definition
     $this->translateHiperLinks();

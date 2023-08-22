@@ -1,6 +1,6 @@
 <?
 
-//First Example: Address Validation
+// First Example: Address Validation
 class Address { 
   function __construct(EmailAddress $emailAddress) {
      // Email is always valid / Code is cleaner
@@ -9,7 +9,7 @@ class Address {
 }
   
 class EmailAddress { 
-  // We can reuse this object many times avoiding copy-pasting
+  // You can reuse this object many times avoiding copy-pasting
   string $address; 
   private function __construct(string $emailAddress) {
     $regex = "/[a-zA-Z0-9_-.+]+@[a-zA-Z0-9-]+.[a-zA-Z]+/";

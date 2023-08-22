@@ -8,4 +8,4 @@ fn validate_years(value: i32) {
 	validate_min_integer(value, 0);
 }
 	
-// Duplication is accidental, therefore we should not abstract it	
+// Duplication is accidental, therefore you should not abstract it	

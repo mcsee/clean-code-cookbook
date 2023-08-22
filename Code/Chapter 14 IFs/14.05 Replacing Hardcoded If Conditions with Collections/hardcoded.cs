@@ -6,7 +6,7 @@ private string FindCountryName (string internetCode)
     return "France";
   else if(internetCode == "ar")
     return "Argentina";
-    // lots of elses
+    // lots of else clauses
   else
     return "Suffix not Valid";
 }

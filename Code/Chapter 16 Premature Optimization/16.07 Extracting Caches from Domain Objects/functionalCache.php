@@ -5,12 +5,11 @@ final class Book {
     private $cachedBooks;
 
     public function getBooksFromDatabaseByTitle(string $title) {
-
-        if (isset($cachedBooks[$title])) {
-            return $cachedBooks[$title];
-        } else {
-            return $this->doGetBooksFromDatabaseByTitle($title);
+        if (!isset($this->cachedBooks[$title])) {
+            $this->cachedBooks[$title] = 
+                $this->doGetBooksFromDatabaseByTitle($title);
         }
+        return $this->cachedBooks[$title];
     }
 
     private function doGetBooksFromDatabaseByTitle(string $title) {

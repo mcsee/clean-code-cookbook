@@ -2,7 +2,7 @@
 
 function parseArguments($arguments) {
     $arguments = $arguments ?: null;
-    // Always the billion-dollar mistake
+    // Always the billion-dollar mistake (null)
     if (is_empty($arguments)) {
         $this->arguments = http_build_query($_REQUEST);
         // Global coupling and side effects

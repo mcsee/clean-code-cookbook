@@ -4,14 +4,15 @@ class Person {
     this.emails = emails;
     // emails should always be a collection. 
     // even an empty one
-    // We can check it here
+    // You can check it here
+    if (emails.length > 1) {
+       throw new Error("Emails collection can have at most one element.");
   }
     
   emails() {
     return this.emails;
-  }
-  
-  // We can mutate the emails since they are not essential
+  }  
+  // You can mutate the emails since they are not essential
   
   addEmail(email) {
     this.emails.push(email);
@@ -25,5 +26,5 @@ class Person {
   }
 }
 
-// we can iterate the person.emails() 
+// You can iterate the person.emails() 
 // in a loop without checking for null 

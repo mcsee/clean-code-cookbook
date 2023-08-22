@@ -4,9 +4,6 @@ class Webpage {
     this.renderDocType();
     this.renderTitle();
     (new RSSFeed()).render();
-    this.renderRssTitle();
-    this.renderRssDescription();
-   // ...
   }
   // HTML render can change
 }

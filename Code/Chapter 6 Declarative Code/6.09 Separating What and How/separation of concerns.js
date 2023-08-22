@@ -7,8 +7,8 @@ class Workflow {
         }
     }
 
-    canWeMoveOn() {
-        // We hide accidental implementation 'the how'
+    canMoveOn() {
+        // You hide accidental implementation 'the how'
         // under the 'what'
         return !this.stepWork.hasPendingTasks();
     }

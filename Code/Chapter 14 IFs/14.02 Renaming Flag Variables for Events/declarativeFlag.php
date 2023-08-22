@@ -1,6 +1,6 @@
 <?
 
-function dummyFunction()
+function dummy()
 {
     $atLeastOneElementWasFound = false;
 

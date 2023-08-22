@@ -12,4 +12,4 @@ public class Car implements Vehicle {
     }
 }
 
-// No more vehicles??
+// No more concrete vehicles??

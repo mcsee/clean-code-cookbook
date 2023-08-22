@@ -7,5 +7,5 @@ function incrementCounter(value: number): void {
   // it modifies the global variable counter 
   
   console.log(`Counter is now ${counter}`); 
-  // it logs a message to the console.
+  // it logs a message to the console
 }

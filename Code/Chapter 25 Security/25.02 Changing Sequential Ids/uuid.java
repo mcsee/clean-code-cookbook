@@ -14,10 +14,13 @@ class BookResource {
     private id; // The id is the link we provide to external world
 }
 
-Book harryPotter = new Book(new Author('J. K. Rowling'));
-Book cleanCode = new Book(new Author('Robert Martin'))
-Book donQuixote = new Book(new Author('Miguel Cervantes'));
-                             
-BookResource harryPotterResource = new BookResource(harryPotter, UUID.randomUUID());                             
+Book harryPotter = new Book(new Author(’J. K. Rowling’));
 
-// Books don't know they id. Just the resource does
+Book designPatterns = new Book(
+    new Author(’Erich Gamma’), 
+    new Author(’Richard Helm’)); 
+    
+Book donQuixote = new Book(new Author(’Miguel Cervantes’));
+
+BookResource harryPotterResource = new BookResource(harryPotter, UUID.randomUUID());
+// Books don’t know their id. Just the resource does

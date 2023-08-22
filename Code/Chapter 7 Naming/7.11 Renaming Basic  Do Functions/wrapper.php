@@ -21,5 +21,4 @@ final class Calculator {
     private function basicComputeSomething() {
         // Do Real work here
     }
-
 }

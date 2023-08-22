@@ -1,6 +1,6 @@
 function carBrandImplicit(model) {
   if (model === 'A4') {
-    return 'audi';
+    return 'Audi';
   }
   return 'Mercedes-Benz';
 }

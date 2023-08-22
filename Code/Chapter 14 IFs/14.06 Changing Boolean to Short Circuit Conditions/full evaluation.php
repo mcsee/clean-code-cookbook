@@ -1,6 +1,6 @@
 <?
 
 if (isOpen(file) & size(contents(file)) > 0)
-  // Full evaluation 
-  // Will fail since we cannot retrieve contents 
-  // from not open file
+  // It performs a full evaluation since it is the bitwise AND
+  // will fail since you cannot retrieve contents
+  // from a file that is not open

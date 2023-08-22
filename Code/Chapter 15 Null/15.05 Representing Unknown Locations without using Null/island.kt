@@ -12,7 +12,8 @@ fun main() {
         if (person.latitude == 0.0 && person.longitude == 0.0) {
             println("${person.name} lives on Null Island!")
         } else {
-            println("${person.name} lives at (${person.latitude}, ${person.longitude}).")
+            println("${person.name} lives at " +
+                    "(${person.latitude}, ${person.longitude}).")
         }
     }
 }

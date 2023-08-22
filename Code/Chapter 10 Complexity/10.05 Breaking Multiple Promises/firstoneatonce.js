@@ -1,9 +1,8 @@
-async fetchOne() { /* long task */ }
-async fetchTwo() { /* another long task */ }
+async fetchLongTask() { }
+async fetchAnotherLongTask() { }
 
 async fetchAll() {
-  let res1 = await this.fetchOne(); 
-  let res2 = await this.fetchTwo();
+  let result1 = await this.fetchLongTask(); 
+  let result2 = await this.fetchAnotherLongTask();
   // they can run in parallel !!  
-}
-                                 
+}                                 

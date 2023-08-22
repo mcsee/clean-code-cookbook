@@ -2,12 +2,12 @@
 
 final class GeographicCoordinate {
 
-    function __construct($latitude, $longitude) {
-        if (!$this->isValidLatitude($latitude)) {
-            throw new InvalidLatitudeException($latitude);
+    function __construct($latitudeInDegrees, $longitudeInDegrees) {
+        if (!$this->isValidLatitude($latitudeInDegrees)) {
+            throw new InvalidLatitudeException($latitudeInDegrees);
             // ...
-            $this->longitude = $longitude;
-            $this->latitude = $latitude;
+            $this->longitude = $longitudeInDegrees;
+            $this->latitude = $latitudeInDegrees;
         }
     }
 }

@@ -6,12 +6,10 @@ function retrieveImagesFrom(array $imageUrls) {
     $fullImageName = $this->directory() . "\\" . $imageFilename;
     if (!file_exists($fullImageName)) {
       if (str_starts_with($imageFilename, 'https://cdn.example.com/')) {
-          // TODO: Remove Hardcode
           $url = $imageFilename;
           // This variable duplication is not really necessary 
           // When we scope variables        
           $saveto= "c:\\temp"."\\".basename($imageFilename);
-          // TODO: Remove Hardcode
           $ch = curl_init ($url);
           curl_setopt($ch, CURLOPT_HEADER, 0);
           curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -38,7 +36,7 @@ function retrieveImagesFrom(array $imageUrls) {
           if (!$found){
             throw new \Exception('We couldnt find image');
          }
-        // Debugging at this point our context is polluted with variables
+        // Debugging at this point your context is polluted with variables
         // from previous executions no longer needed
         // for example: the curl handler
   }

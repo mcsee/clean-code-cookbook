@@ -1,5 +1,5 @@
 class Rectangle {
-    constructor(width, height, color) { 
+    constructor(width, height) { 
          this.height = height;
          this.width = width;
     }

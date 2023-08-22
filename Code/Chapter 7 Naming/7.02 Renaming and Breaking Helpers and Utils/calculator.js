@@ -34,8 +34,7 @@ class CategoryCalculator{
   display() {
     return this._userscore.points() > 70 ? 'A' : 'B';
   }
-}
-  
+}  
   
 let alice = new UserScore('Alice', 'Gray', 78);
 

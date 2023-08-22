@@ -7,5 +7,5 @@ public function testNoNewStarsAppeared(): void
      // These sentences get a very large collection
   
      $this->assertEquals($expectedStars, $observedStars);
-     // If something fails we will have a very hard debugging time
+     // If something fails you will have a very hard time debugging
     }

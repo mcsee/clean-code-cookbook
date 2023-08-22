@@ -17,7 +17,8 @@ class Cart {
     }
 
     subtotal() {
-        return this.items.reduce((previous, current) => previous + current.price, 0);
+        return this.items.reduce((previous, current) => 
+            previous + current.price, 0);
     }
 
     total() {
@@ -28,8 +29,16 @@ class Cart {
     }
 }
 
-cart = new Cart([new CartItem(1), new CartItem(2), new CartItem(7)], new DiscountCoupon(0.15));
+cart = new Cart([
+    new CartItem(1),
+    new CartItem(2),
+    new CartItem(7)
+    ], new DiscountCoupon(0.15)]);
 // 10 - 1.5 = 8.5
 
-cart = new Cart([new CartItem(1), new CartItem(2), new CartItem(7)], null);
+cart = new Cart([
+    new CartItem(1),
+    new CartItem(2),
+    new CartItem(7)
+    ], null);
 // 10 - null  = 10

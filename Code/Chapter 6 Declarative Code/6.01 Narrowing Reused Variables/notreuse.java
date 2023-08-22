@@ -1,9 +1,9 @@
 function printLineTotal() {
-  double total = item.getPrice() * item.getQuantity();
-  System.out.println("Line total: " + total );
+  double lineTotal = item.getPrice() * item.getQuantity();
+  System.out.println("Line total: " + lineTotal );
 }
 
 function printAmountTotal() {
-  double total = order.getTotal() - order.getDiscount();
-  System.out.println( "Amount due: " + total );
+  double ammountTotal = order.getTotal() - order.getDiscount();
+  System.out.println( "Amount due: " + ammountTotal );
 }

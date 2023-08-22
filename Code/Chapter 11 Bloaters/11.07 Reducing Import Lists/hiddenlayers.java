@@ -1,8 +1,7 @@
-
 import org.fermi.domainModel;
 import org.fermi.workflow;
 
-// We rely on few libraries
+// You rely on few libraries
 // and we hide their implementation
 // So maybe transitive imports are the same
 // but we don't break encapsulation

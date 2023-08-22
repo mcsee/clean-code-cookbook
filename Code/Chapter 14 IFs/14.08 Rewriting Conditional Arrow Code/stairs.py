@@ -7,7 +7,8 @@ def is_platypus(self):
                         return True
     return False
 
-# This is also wrong since it is polluted with IFs and not readable by a biologist
+# This is also wrong since it is polluted 
+# with IFs and not readable by a biologist
 def is_platypus(self):
     if not self.is_mammal():
         return False

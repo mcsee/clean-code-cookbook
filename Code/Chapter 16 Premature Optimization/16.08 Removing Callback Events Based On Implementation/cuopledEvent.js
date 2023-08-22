@@ -6,4 +6,4 @@ const Item = ({name, handlePageChange)} =>
 // handlePageChange is coupled with what you decide to do
 // instead of what really happened
 //
-// We cannot reuse this kind of callback
+// You cannot reuse this kind of callback

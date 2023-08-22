@@ -10,12 +10,12 @@ const ALL_CONSTANTS = 3.14; // Error
 
 ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // ERROR
 
-// Code works, but it is coupled and we cannot test it
+// Code works, but it is coupled and you cannot test it
 
-Class TaxesProvider {
+class TaxesProvider {
   applyPlatinum(product);
 }
 
-// Now we can couple to a interface (the protocol of taxes provider)
-// Since class has no setters it is constant an immutable
-// And we can replace it on tests
+// Now you can couple to a interface (the protocol of taxes provider)
+// Since class has no setters it is constant and immutable
+// And you can replace it on tests

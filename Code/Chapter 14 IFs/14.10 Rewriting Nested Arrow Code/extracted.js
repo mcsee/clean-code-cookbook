@@ -1,7 +1,7 @@
-foreach (products as currentProduct)
+foreach (products as currentProduct) {
   addPriceIfDefined(currentProduct)
+}
 
-addPriceIfDefined() 
-{
+addPriceIfDefined() {
   // Several extracts
 }

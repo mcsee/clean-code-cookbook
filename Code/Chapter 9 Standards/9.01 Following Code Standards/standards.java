@@ -1,10 +1,3 @@
-package org.craftedsw.domain;
-
-import static org.craftedsw.domain.Amount.amountOf;
-
-import java.io.PrintStream;
-import java.util.Date;
-
 public class Account {
 
 	private Statement statement;
@@ -32,6 +25,5 @@ public class Account {
 		Amount balanceAfterTransaction = transaction.balanceAfterTransaction(balance);
 		balance = balanceAfterTransaction;
 		statement.addLineContaining(transaction, balanceAfterTransaction);
-	}
-	
+	}	
 }

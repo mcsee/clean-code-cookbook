@@ -5,7 +5,7 @@ Namespace Spelling;
 // final class Dictionary is no longer needed
     
 // The tests use a standard class
-// In PHP we use associative arrays
+// In PHP you use associative arrays
 // Java and other languages have HashTables, Dictionaries etc. etc.
   
 use PHPUnit\Framework\TestCase;

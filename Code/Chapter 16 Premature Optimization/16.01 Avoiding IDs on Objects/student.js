@@ -1,6 +1,7 @@
 class Teacher {
     static getByID(id) {
-        // go to the coupled database
+        // This is coupled to the database
+        // Thus violating separation of concerns
     }
 
     constructor(id, fullName) {
@@ -37,6 +38,3 @@ class Student {
         return Teacher.getById(this.teacherId);
     }
 }
-
-
- 

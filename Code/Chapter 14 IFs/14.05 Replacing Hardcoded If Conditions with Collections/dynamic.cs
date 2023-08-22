@@ -1,7 +1,8 @@
 private string[] country_names = {"Germany", "France", "Argentina"} // lots more
 private string[] Internet_code_suffixes= {"de", "fr", "ar" } // more
  
-private Dictionary<string, string> Internet_codes = new Dictionary<string, string>();
+private Dictionary<string, string> Internet_codes = 
+   new Dictionary<string, string>();
 
 // There are more efficient ways for collection iteration
 // This pseudocode is for illustration

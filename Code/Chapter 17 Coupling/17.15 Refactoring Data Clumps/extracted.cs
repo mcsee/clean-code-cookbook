@@ -2,7 +2,11 @@ public class TimeInterval
 {
     public TimeInterval(DateTime from, DateTime to)
     {
-        // We should validate From < To
+        if (from >= to)
+        {
+            throw new ArgumentException
+                ("Invalid time interval: ’from’ must be earlier than ’to’.");
+        }
         From = from;
         To = to;
     }

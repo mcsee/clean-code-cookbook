@@ -1,4 +1,3 @@
-destination = "destination@example.com"
-  
-destination = "destination.example.com"
-// No error thrown
+validDestination = "destination@example.com"  
+invalidDestination = "destination.example.com"
+// No error is thrown

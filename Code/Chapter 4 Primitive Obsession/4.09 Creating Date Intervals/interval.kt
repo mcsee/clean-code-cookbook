@@ -1,4 +1,4 @@
-// We reify the Interval Concept
+// You reify the Interval Concept
 
 data class Interval(val fromDate: LocalDate, val toDate: LocalDate) {
     init {

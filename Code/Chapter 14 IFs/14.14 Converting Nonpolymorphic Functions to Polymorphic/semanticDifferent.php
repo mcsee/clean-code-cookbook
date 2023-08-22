@@ -10,7 +10,7 @@ class list {
     }
 }
 
-class Set {
-    public function setSort() {
+class Stack {
+    public function stackSort() {
     }
 }

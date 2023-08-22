@@ -7,9 +7,8 @@ class Person {
   email() {
     return this.email;
     // might be null    
-  }
-  
+  }  
 }
 
-// We cannot use safely person.email()
-// We need to check for null explicitly
+// You cannot use safely person.email()
+// You need to check for null explicitly

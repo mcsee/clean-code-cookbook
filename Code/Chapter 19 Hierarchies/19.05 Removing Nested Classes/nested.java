@@ -16,6 +16,6 @@ public class Main {
 
 // The output is "Address: Doha"
 //
-// If we change privacy to 'private class City' 
+// If you change privacy to 'private class City' 
 //
-// We get an error " Address.City has private access in Address"
+// We you an error " Address.City has private access in Address"

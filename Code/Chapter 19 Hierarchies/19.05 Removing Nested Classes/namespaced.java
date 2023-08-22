@@ -16,4 +16,4 @@ public class Main {
 
 // The output is "Address: Doha"
 //
-// Now we can reuse and test the City concept
+// Now you can reuse and test the City concept

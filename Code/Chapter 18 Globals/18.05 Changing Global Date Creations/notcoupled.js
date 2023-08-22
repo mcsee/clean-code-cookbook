@@ -1,16 +1,11 @@
 var ouagadougou = new Location(); 
-
 var today = myTimeSource.currentDateIn(ouagadougou);
 
-function testTimePasses() {
- 
-  $mockTime = new MockedDate(new Date(1,1,2021));
-  myDomainSystem = new TimeSystem(new MockedTime());
-  // ..
-  
-  $mockTime.moveDateTo(new Date(1,1,2022));
-  
-  // ...
-  this.assert(10, myDomainSystem.accuredInterests());  
-  
+function testGivenAYearHasPassedAccruedInterestsAre10() {
+    var mockTime = new MockedDate(new Date(2021, 1, 1));
+    var domainSystem = new TimeSystem(mockTime);
+    // ..
+    mockTime.moveDateTo(new Date(2022, 1, 1));
+    // … You set up the yearly interest rate
+    assertEquals(10, domainSystem.accruedInterests());
 }

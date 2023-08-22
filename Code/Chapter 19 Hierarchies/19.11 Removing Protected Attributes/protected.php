@@ -1,17 +1,14 @@
 <?
 
 abstract class ElectronicDevice {
-
     protected $battery;
 
     public function __construct(OperatingSystem $battery) {
         $this->battery = $battery;
     }
-
 }
 
 abstract class Idevice extends ElectronicDevice {
-
     protected $operatingSystem;
 
     public function __construct(Battery $battery, OperatingSystem $ios) {
@@ -31,11 +28,10 @@ final class Ipad extends Idevice {
 
 final class Iphone extends Idevice {
 
-    private $phoneModule:
+  private $phoneModule:
  
   public __construct(Battery $battery, OperatingSystem $ios, PhoneModule $phoneModule) {
     $this->phoneModule = $phoneModule;
     parent::__construct($battery, $ios)
   }
-
 }

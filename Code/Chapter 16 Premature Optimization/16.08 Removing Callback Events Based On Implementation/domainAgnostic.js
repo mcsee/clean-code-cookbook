@@ -5,4 +5,4 @@ const Item = ({name, onItemSelected)} =>
 
 // onItemSelected will be called just when an item was selected. KISS
 // Parent can decide what to do (or do nothing)
-// We defer the decision
+// You defer the decision

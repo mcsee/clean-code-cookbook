@@ -1,26 +1,10 @@
-final public class PaperSize {
-    // ...
-}
-
-final public class Document {
-    // ...
-}
-
-final public class PrintMargins {
-    // ...
-}
-
-final public class PrintRange {
-    // ...
-}
-
-final public class ColorConfiguration {
-    // ...
-}
-
-final public class PrintOrientation {
-    // ...
-}
+final public class PaperSize { }
+final public class Document { }
+final public class PrintMargins { }
+final public class PrintRange { }  
+final public class ColorConfiguration { }
+final public class PrintOrientation { }
+// Class definition with methods and properties omitted for simplicity
 
 final public class PrintSetup {
     public PrintSetup(PaperSize papersize,
@@ -33,7 +17,8 @@ final public class PrintSetup {
 }
 
 final public class Printer {   
-  void print(Document documentToPrint, 
+  void print(
+         Document documentToPrint, 
          PrintSetup setup        
         ) {
     }

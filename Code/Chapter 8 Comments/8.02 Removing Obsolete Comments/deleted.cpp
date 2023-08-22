@@ -1,6 +1,6 @@
 void Widget::displayPlugin(Unit* unit)
 { 
-	if (!isVisible) {
-		return;
- 	}
+  if (!isVisible) {
+    return;
+  }
 }

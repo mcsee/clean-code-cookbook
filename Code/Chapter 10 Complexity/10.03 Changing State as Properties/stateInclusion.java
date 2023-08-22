@@ -1,6 +1,3 @@
-import java.io.*; 
-import java.util.*; 
-
 final class Order {
     
     public Order(LinkedList<int> items) {
@@ -24,6 +21,5 @@ class OrderProcessor {
     
     pendingOrders.remove(sampleOrder);  
     confirmedOrders.add(sampleOrder);
-
     }
 }

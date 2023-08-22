@@ -1,12 +1,9 @@
-#include "stdio.h"
-#include "stdlib.h"
-#include "stdbool.h"
 #define INVALID_VALUE 999
 
 int main(void)
 {    
     int id = get_value();
-    if (id==INVALID_VALUE)
+    if (id == INVALID_VALUE)
     { 
         return EXIT_FAILURE;  
         // id is a flag and also a valid domain value        

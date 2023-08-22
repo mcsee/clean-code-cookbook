@@ -6,5 +6,5 @@ for (k = 0; k < 3 * 3; ++k) {
  
 // This cryptic piece of code iterates a
 // two-dimensional array
-// We don't have proof this will be useful
+// You don't have proof this will be useful
 // In real contexts

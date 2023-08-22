@@ -1,11 +1,7 @@
-function giveFirstDoseOfVaccine(person, vaccine) {
-  //
-}
+function giveFirstDoseOfVaccine(person, vaccine) { }
 
-function giveSecondDoseOfVaccine(vaccine, person) {
-  //
-}
+function giveSecondDoseOfVaccine(vaccine, person) { }
 
-
-giveFirstDoseOfVaccine(jane, pfizer);
-giveSecondDoseOfVaccine(jane, pfizer);  // Unnoticed mistake
+giveFirstDoseOfVaccine(jane, flu);
+giveSecondDoseOfVaccine(jane, flu);  
+//Unnoticed mistake since you changed the parameters’ order

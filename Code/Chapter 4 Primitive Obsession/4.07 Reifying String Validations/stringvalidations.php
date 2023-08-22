@@ -3,7 +3,8 @@
 // First Example: Address Validation
 class Address { 
   function __construct(string $emailAddress) {
-     // String validation on Address class violates SRP
+     // String validation on Address class violates 
+     // Single Resposnibility Principle
      $this->validateEmail($emailAddress);
      // ...
    }
