@@ -26,7 +26,10 @@ public class Address {
 
 }
 
-Address nullAddress = new Address(Constants.EMPTY_STRING, Constants.EMPTY_STRING, Constants.EMPTY_STRING);
+Address nullAddress = new Address(
+	Constants.EMPTY_STRING, 
+	Constants.EMPTY_STRING, 
+	Constants.EMPTY_STRING);
 // we have our null object
 // we should NOT assign it to a singleton, static or global
 // It behaves like a null object. That's enough

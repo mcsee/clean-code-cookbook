@@ -1,5 +1,3 @@
-import re
-
 def sanitize(string):
   # Remove any characters that are not letters or numbers
   sanitized_string = re.sub(r'[^a-zA-Z0-9]', '', string)

@@ -1,4 +1,3 @@
-# bad
 import logging
 
 def send_email(): 

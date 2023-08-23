@@ -1,0 +1,3 @@
+calculatePrimeFactorsRemoveDuplicatesAndPrintThem()
+
+// Three responsibilities

@@ -1,7 +1,7 @@
 !true // returns false
 !false // returns true
 
-isActive = true 
+isActive = true
 !isActive // returns false
 
 age = 54

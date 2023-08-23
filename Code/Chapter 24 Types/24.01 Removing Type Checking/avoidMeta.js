@@ -1,15 +1,4 @@
-/*Avoid these methods
-if (typeof(x) === 'undefined') {
-    console.log('variable x is not defined');   
-}
-
-function isNumber(data) {
-  return (typeof data === 'number');
-}
-*/
-
-class Animal {
-} 
+class Animal { } 
 
 class Rabbit extends Animal {
   move() {

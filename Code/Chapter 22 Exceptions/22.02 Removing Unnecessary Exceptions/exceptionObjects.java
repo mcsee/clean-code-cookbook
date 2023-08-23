@@ -12,18 +12,22 @@ public class FileReader {
             file.read();
         }
         catch(FileException exception) {
-            if (exception.description == (this.expectionMessages().errorDescriptionFileTemporaryLocked() {
+            if (exception.description == 
+                (this.expectionMessages().errorDescriptionFileTemporaryLocked() {
                 // sleep and retry
-                // IF behavior is the same with all the exceptions just change the text on 
+                // IF behavior is the same with all the exceptions
+                // just change the text on 
                 // object creation and raise the incorrect instance
             }            
             this.showErrorToUser(exception.messageToUser();
-             // This example is simplified. Text should be translated
+             // This example is simplified. You should translate the text
         }                
         finally {
             try {
                 file.close();
-            } 
+             } catch (IOException ioException) {
+ioException.printStackTrace();
+             }
         }
     }
 }

@@ -3,8 +3,8 @@ class Book {
     private List<Long> authorIds; // book knows author IDs
 }
 
-Book harryPotter = new Book(1, {2});
-Book cleanCode = new Book(2, {4});
-Book donQuixote = new Book(3, {5});
+Book harryPotter = new Book(1, List.of(2));
+Book designPatterns = new Book(2, List.of(4, 6, 7, 8));
+Book donQuixote = new Book(3, List.of(5));
 
-// We can scrape from now on.
+// We can scrape from now on
