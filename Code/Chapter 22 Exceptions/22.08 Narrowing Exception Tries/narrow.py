@@ -1,6 +1,6 @@
 import calendar, datetime
 
-# We might add specialized tries dealing with errors from the following 3 statements
+# You might add specialized tries dealing with errors from the following 3 statements
 birthYear= input('Birth year:')
 birthMonth= input('Birth month:')
 birthDay= input('Birth day:')
@@ -13,7 +13,9 @@ except ValueError as e:
               'The month must be a number in 1...12')
     elif str(e) == 'year {0} is out of range'.format(birthYear): 
         print('Year ' + str(birthYear) + ' is out of range. '
-              'The year must be a number in ' + str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
+              'The year must be a number in ' + 
+              str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
     elif str(e) == 'day is out of range for month': 
         print('Day ' + str(birthDay) + ' is out of range. '
-              'The day must be a number in 1...' + str(calendar.monthrange(birthYear, birthMonth)))        
+              'The day must be a number in 1...' +
+              str(calendar.monthrange(birthYear, birthMonth)))        

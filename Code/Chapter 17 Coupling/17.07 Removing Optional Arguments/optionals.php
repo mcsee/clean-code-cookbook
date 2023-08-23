@@ -2,7 +2,10 @@
 
 final class Poll {
     
-    function _construct(array $questions, bool $annonymousAllowed = false, $validationPolicy = 'Normal') {
+    function _construct(
+        array $questions,
+        bool $annonymousAllowed = false,
+        $validationPolicy = 'Normal') {
         
         if ($validationPolicy == 'Normal') {
           $validationPolicy = new NormalValidationPolicy();

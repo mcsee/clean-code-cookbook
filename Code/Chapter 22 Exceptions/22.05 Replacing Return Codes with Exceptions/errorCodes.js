@@ -2,12 +2,12 @@ function createSomething(arguments) {
     // Magic Creation
     success = false; // we failed
 
-    // We failed to create
+    // You failed to create
     if (!success) {
         return {
             object: null,
             errorCode: 403,
-            errorDescription: 'We didnt have permission to create...'
+            errorDescription: 'You don\'t have permission to create...'
         };
     }
 
@@ -22,6 +22,6 @@ var myObject = createSomething('argument');
 if (myObject.errorCode != 400) {
     console.log(myObject.errorCode + ' ' + myObject.errorDescription)
 }
-// but myObject does not hold My Object but an implementative
-// and accidental array
-// from now on me need to remember this
+// but myObject does not hold My Object but
+// an accidental auxiliary based on implementation
+// from now on you need to remember this
