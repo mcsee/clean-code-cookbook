@@ -14,6 +14,6 @@ final class Star {
       // since it has private access to $distanceInParsecs
       // this is another smell indicator.
 
-      // We cannot test this function since it is private
+      // You cannot test this function since it is private
   }
 }

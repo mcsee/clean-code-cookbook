@@ -10,4 +10,5 @@ class PhoneCall:
     return self._duration
   
 # duration is exposed in seconds as a ripple effect
-# this violates information hiding principle and prevents us from changing it representation
+# this violates information hiding principle
+# and prevents us from changing it representation

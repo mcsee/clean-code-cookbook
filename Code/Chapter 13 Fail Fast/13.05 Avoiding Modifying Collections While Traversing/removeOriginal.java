@@ -6,4 +6,5 @@ for (Object person : people) {
         people.remove(person);
     }
 }
-// You iterate AND remove elements, elements, risking skipping other candidates for removal
+// You iterate AND remove elements, elements,
+// risking skipping other candidates for removal

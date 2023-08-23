@@ -11,5 +11,5 @@ public function testNoNewStarsAppeared(): void
      $this->assertEquals($expectedStars, $observedStars,
          'There are new stars ' . print_r($newStars,true));
      // Now you can see EXACTLY why the assertion failed with a clear and
-     // Declarative Message
+     // declarative Message
     }

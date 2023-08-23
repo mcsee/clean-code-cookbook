@@ -7,7 +7,7 @@ final class RangeUnitTest extends TestCase {
     $offset = $range->offset();
     $this->assertEquals(10, $offset, 'All pages must have 10 as offset');    
     // Expected value should always be first argument
-    // We add a functional essential description
+    // You add a functional essential description
     // to complement accidental description provided by tests
   }  
 }
