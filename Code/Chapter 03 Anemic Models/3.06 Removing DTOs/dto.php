@@ -33,5 +33,5 @@ final class SocialNetworkProfileDTO {
    // No protocol, just serializers
 }
 
-// If you need to transfer to an External system we create an anemic DTO
+// If you need to transfer to an External system you create an anemic DTO
 $janesProfileToTransfer = new SocialNetworkProfileDTO();

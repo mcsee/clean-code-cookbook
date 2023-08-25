@@ -52,7 +52,8 @@ fun main() {
         person.location.ifKnownOrElse(
             { location -> println(person.name" is " +
                 person.location.calculateDistance(rio) +
-                    " kilometers { println("${person.name} is at an unknown location.") }
+                    " kilometers { println("${person.name} " 
+                        + "is at an unknown location.") }
        )
     }
 }

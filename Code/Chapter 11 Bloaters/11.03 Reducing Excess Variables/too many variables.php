@@ -25,7 +25,7 @@ function retrieveImagesFrom(array $imageUrls) {
           $found = false;
           $files = array_diff(scandir($this->directory()), array('.', '..'));
           foreach ($files as $file){
-              if ($sha1 == sha1_file($this->directory()."\\".$file)) {                         
+              if ($sha1 == sha1_file($this->directory()."\\".$file)) {
                   $images[$imageName]['remote'] = $imageFilename;
                   $images[$imageName]['local'] = $file;
                   $imageFilename = $file;

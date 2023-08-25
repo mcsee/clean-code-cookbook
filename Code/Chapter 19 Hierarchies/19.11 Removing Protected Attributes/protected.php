@@ -30,7 +30,9 @@ final class Iphone extends Idevice {
 
   private $phoneModule:
  
-  public __construct(Battery $battery, OperatingSystem $ios, PhoneModule $phoneModule) {
+  public __construct(Battery $battery, 
+                     OperatingSystem $ios,
+                     PhoneModule $phoneModule) {
     $this->phoneModule = $phoneModule;
     parent::__construct($battery, $ios)
   }

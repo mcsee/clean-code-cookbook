@@ -10,7 +10,8 @@ function retrieveImagesFrom(string imageUrls) {
             $this->retrieveFileAndSaveIt($imageFilename, $temporaryFilename);
             $localFileSha1 = sha1_file($temporaryFilename);
             list($found, $images, $imageFilename) = 
-              $this->tryToFindFile($localFileSha1, $imageFilename, $images, $imageName);
+              $this->tryToFindFile(
+                $localFileSha1, $imageFilename, $images, $imageName);
             if (!$found) {
                 throw new Exception('File not found locally ('.$imageFilename.') .
                 Need to retrieve it and store it');

@@ -1,6 +1,7 @@
 class VerySpecificAndSmallObjectDealingWithPersistency {   
   retrieveData() {
-    if (GlobalSettingsSingleton.getInstance().valueAt('IamAPossibleMistypedString')) {
+    if (GlobalSettingsSingleton.getInstance().
+        valueAt('IamAPossibleMistypedString')) {
       this.retriveDataThisWay();
     }
     else {
@@ -8,4 +9,3 @@ class VerySpecificAndSmallObjectDealingWithPersistency {
     }
   }
 }
-

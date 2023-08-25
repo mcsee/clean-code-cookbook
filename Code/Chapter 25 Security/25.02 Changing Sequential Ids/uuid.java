@@ -9,7 +9,7 @@ class Book {
 
 class BookResource {    
     private Book resource; // The resource knows the underlying book
-    private id; // The id is the link we provide to external world
+    private id; // The id is the link you provide to the external world
 }
 
 Book harryPotter = new Book(new Author('J. K. Rowling'));

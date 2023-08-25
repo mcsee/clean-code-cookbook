@@ -7,7 +7,7 @@ echo elements.size() yields 1
 // This is the standard set
 
 var moreElements = new MultiConjunto();
-// We defined a multiset in Spanish
+// You defined a multiset in Spanish
 // because we are extending the domain
 
 moreElements.agregar('hello');
@@ -16,7 +16,7 @@ moreElements.agregar('hello');
 
 echo moreElements.size() yields 2 // Since it is a multiset
 
-// elements and moreElements are NOT polymorphic
+// Elements and moreElements are NOT polymorphic
 // You cannot exchange their implementation
 
 class Person {
