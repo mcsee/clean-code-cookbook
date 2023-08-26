@@ -13,7 +13,7 @@ if (!user.credentials.expired) {
 // User is a real user or a polymorphic NullUser
 // Credentials are always defined.
 // Can be an instance of InvalidCredentials
-// Assuming we eliminated nulls from our code
+// Assuming you eliminated the nulls from your code
 
 if (user.functionDefinedOrNot !== undefined) {  
     functionDefinedOrNot();

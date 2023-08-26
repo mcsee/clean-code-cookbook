@@ -9,11 +9,11 @@ switch (value) {
     break;
   case value3:
   case value4:
-    // We currently know these options exist
+    // You currently know these options exist
     doSomethingSpecial();
     break;
   default:
-    // if value does not match the above values we need to take a decision
+    // if value does not match the above values you need to take a decision
     throw new Exception('Unexpected case ' + value + ' we need to consider it');
     break;
 }

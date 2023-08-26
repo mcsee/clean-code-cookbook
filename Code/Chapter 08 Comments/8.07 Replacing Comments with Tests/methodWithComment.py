@@ -8,4 +8,4 @@ def multiply(a, b):
 
 # This code has a comment that explains what the function does.
 # Instead of relying on this comment to understand the behavior of the code,
-# we can write some unit tests that verify the behavior of the function.
+# You can write some unit tests that verify the behavior of the function.

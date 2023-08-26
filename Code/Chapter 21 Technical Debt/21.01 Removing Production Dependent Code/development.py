@@ -4,13 +4,13 @@ class ProductionEnvironment:
 class DevelopmentEnvironment:
   FROM_EMAIL = "Bob Builder Development <bob@builder.com>"
   
-# We can unit test environments
+# You can unit test environments
 # and even implement different sending mechanisms
 
 def send_welcome_email(email_address, environment):
   print("Sending welcome email to {email_address} "
         "from {environment.FROM_EMAIL}")
-  # We can delegate into a fake sender (and possible logger)
+  # You can delegate into a fake sender (and possible logger)
   # and unit test it
 
 send_welcome_email("john@doe.com", DevelopmentEnvironment())

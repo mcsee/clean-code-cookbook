@@ -1,7 +1,7 @@
 function createSomething(arguments) {
     // Magic Creation
-    success = false; // we failed
-    // We failed to create
+    success = false; // you failed
+    // You failed to create
     if (!success) {
         throw new Error('We didnt have permission to create...');
     }

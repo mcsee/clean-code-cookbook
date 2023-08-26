@@ -14,7 +14,7 @@ public String name;
  }
  // This is just an example of non-correlation  
  
- // When using HashMaps we can make a mistake 
+ // When using HashMaps you can make a mistake 
  // and guess the object is not present in the collection
  
 }

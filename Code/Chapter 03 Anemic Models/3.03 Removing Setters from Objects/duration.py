@@ -11,4 +11,4 @@ class PhoneCall:
   
 # duration is exposed in seconds as a ripple effect
 # this violates information hiding principle
-# and prevents us from changing it representation
+# and prevents you from changing it representation
