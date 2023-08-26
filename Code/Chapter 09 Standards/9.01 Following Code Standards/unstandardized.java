@@ -32,12 +32,13 @@ public void voidPrintStatement(PrintStream printer)
   // Name is redundant
 }
 
-private void privRecordTransactionAfterEnteredthabalance(Amount value, Date date) {
+private void privRecordTransactionAfterEnteredthabalance
+	(Amount value, Date date) {
   Transaction transaction = new Transaction(value, date);
   Amount balanceAfterTransaction = transaction.balanceAfterTransaction(balance);
   balance = balanceAfterTransaction;
   statement.addANewLineContainingTransation(transaction, balanceAfterTransaction);
   // naming is not uniform
-  // wrapped lines are not consistent	
+  	// wrapped lines are not consistent	
  }	
 }

@@ -9,7 +9,8 @@ age = 54
 array = []
 !array // should return type mismatch
 obj = new Object;
-!obj // should return type mismatch (what is an obejct negated in a real domain?)
+!obj // should return type mismatch 
+// (what is an object negated in a real domain?)
 
 !!true // returns true - it is idempotent
 !!false // returns false - it is idempotent

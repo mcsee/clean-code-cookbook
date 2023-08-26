@@ -13,8 +13,8 @@ function retrieveImagesFrom(string imageUrls) {
               $this->tryToFindFile(
                 $localFileSha1, $imageFilename, $images, $imageName);
             if (!$found) {
-                throw new Exception('File not found locally ('.$imageFilename.') .
-                Need to retrieve it and store it');
+                throw new Exception('File not found locally ('.$imageFilename 
+                + ') Need to retrieve it and store it');
             }
         } else {
             throw new \Exception('Image does not exist on directory ' .

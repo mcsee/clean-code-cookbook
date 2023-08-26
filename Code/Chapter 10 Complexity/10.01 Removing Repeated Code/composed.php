@@ -12,7 +12,7 @@ final class TextReplacer {
     }
 }
 
-// Lots of tests on text replacer so we can gain confidence.
+// Lots of tests on text replacer so you can gain confidence.
 
 final class WordProcessor {
     function replaceText(string $patternToFind, string $textToReplace) {

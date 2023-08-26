@@ -26,7 +26,8 @@
             if (response.ok) {
                 return response.json();
             } else {
-                throw new Error("Could not reach the API: " + response.statusText);
+                throw new Error("Could not reach the API: " +
+                    response.statusText);
             }
         }).then(function(data) {
             document.getElementById("message").innerHTML = data.encoded;

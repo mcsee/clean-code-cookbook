@@ -6,7 +6,8 @@ final class DatabaseQueryOptimizer {
     // Make some optimizations manipulating criteria
   }
   
-  private function sqlParserOptimization(SQLSentence $sqlSentence): SQLSentence {
+  private function sqlParserOptimization(SQLSentence $sqlSentence)
+    : SQLSentence {
     // Parse the SQL converting it to a string 
     // and then working with their nodes as strings and lots of regex
     // This was a very costly operation overcoming real SQL benefits.

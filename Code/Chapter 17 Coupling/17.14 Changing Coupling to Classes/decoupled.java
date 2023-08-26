@@ -20,4 +20,5 @@ public class myDomainObject sum(Iterator anObjectThatCanBeIterated) {
  // Loose coupling
 }
 
-// Can use any Iterator (even a mocked one as long as it adheres to the protocol)
+// Can use any Iterator
+// (even a mocked one as long as it adheres to the protocol)

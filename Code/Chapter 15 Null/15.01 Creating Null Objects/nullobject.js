@@ -27,7 +27,8 @@ class Cart {
     }
 
     subtotal() {
-        return this.items.reduce((previous, current) => previous + current.price, 0);
+        return this.items.reduce(
+            (previous, current) => previous + current.price, 0);
     }
 
     total() {

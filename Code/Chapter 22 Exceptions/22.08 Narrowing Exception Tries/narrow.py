@@ -1,6 +1,8 @@
 import calendar, datetime
 
-# You might add specialized tries dealing with errors from the following 3 statements
+# You might add specialized tries dealing
+# with errors from the following 3 statements
+
 birthYear= input('Birth year:')
 birthMonth= input('Birth month:')
 birthDay= input('Birth day:')
