@@ -5,7 +5,8 @@ janePhoneCall.set_origin('555-5555')
 janePhoneCall.set_destination('555-5555')
 janePhoneCall.set_duration(60) 
 
-# We can't change destination during call. This is not enforced due to setters
+# You can't change the destination during the call.
+# This is not enforced due to setters
 
 # Origin and Destination cannot be the same
 

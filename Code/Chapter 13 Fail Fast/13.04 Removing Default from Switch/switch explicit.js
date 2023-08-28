@@ -14,6 +14,6 @@ switch (value) {
     break;
   default:
     // if value does not match the above values you need to take a decision
-    throw new Exception('Unexpected case ' + value + ' we need to consider it');
+    throw new Exception('Unexpected case ' + value + ' need to consider it');
     break;
 }

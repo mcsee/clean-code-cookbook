@@ -6,8 +6,8 @@ class ShopItem {
   }
   code() { return this._code }
   description() { return this._description }                 
-  // dd more functions to avoid anemic classes
-  // getters are also code smells, so we need to iterate it
+  // Add more functions to avoid anemic classes
+  // getters are also code smells, so you need to iterate it
 }
 
 bookItem = new ShopItem('book', 'some book);

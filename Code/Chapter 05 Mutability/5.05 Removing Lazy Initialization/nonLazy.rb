@@ -7,4 +7,4 @@ class Employee
   end
 end
 # You can also inject a design pattern to externally deal
-# with voice_mails so we can mock it in our tests
+# with voice_mails so you can mock it in our tests

@@ -15,8 +15,8 @@ class BookCartTestCase(unittest.TestCase):
            3,
            msg='Quantity of items not correct after adding book')
 
-    # We don't reuse same example.
-    # We use a new REAL book
+    # You don't reuse same example.
+    # You use a new REAL book
     def test_remove_item(self):
         self.cart.add_item('Divergent', 3, 10)
         self.cart.remove_item('Divergent', 2, 10)    

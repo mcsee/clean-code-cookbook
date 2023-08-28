@@ -18,7 +18,7 @@ class TestMultiply(unittest.TestCase):
         result = multiply(0, 0)
         self.assertEqual(result, 0)           
 
-# We define a test function called test_multiply,
+# You define a test function called test_multiply,
 # which calls the multiply function with different arguments 
 # and verifies that the result is correct using the assertEqual method.
 

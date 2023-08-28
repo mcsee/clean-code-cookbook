@@ -2,7 +2,7 @@ const DISCOUNT_PLATINUM = 0.1;
 const DISCOUNT_GOLD = 0.05;
 const DISCOUNT_SILVER = 0.02;
 
-// Since variables are constants we cannot reassign them
+// Since variables are constants you cannot reassign them
 const DISCOUNT_PLATINUM = 0.05; // Error
 
 // We can group them
