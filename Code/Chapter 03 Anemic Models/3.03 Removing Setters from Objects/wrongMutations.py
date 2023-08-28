@@ -1,4 +1,4 @@
-# Since we have a setter we can create invalid combinations
+# Since you have a setter you can create invalid combinations
 
 janePhoneCall = PhoneCall()
 janePhoneCall.set_origin('555-5555')

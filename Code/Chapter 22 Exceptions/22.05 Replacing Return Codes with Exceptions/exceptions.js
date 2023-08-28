@@ -3,7 +3,7 @@ function createSomething(arguments) {
     success = false; // you failed
     // You failed to create
     if (!success) {
-        throw new Error('We didnt have permission to create...');
+        throw new Error('You didnt have permission to create...');
     }
     return createdObject;
 }

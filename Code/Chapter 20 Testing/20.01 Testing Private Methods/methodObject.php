@@ -20,7 +20,7 @@ final class ParsecsToLightYearsConverterTest extends TestCase {
     $this->assertEquals(0, (new ParsecsToLightYearsConverter)->convert(0));
   }
     // You can add lots of tests and rely on this object
-    // So we don't need to test Star conversions
+    // So you don't need to test Star conversions
     // You can't yet test Star public timeToReachLightToUs()
     // This is a simplified scenario
 }

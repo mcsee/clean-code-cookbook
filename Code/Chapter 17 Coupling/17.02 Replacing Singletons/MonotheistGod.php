@@ -40,5 +40,5 @@ $mythogicalReligion = new PolythiesticReligion([$jupiter, $saturn]);
 
 // Gods are unique (or not) according to context
 // You can create test religions with or without unicity
-// This is less coupled since we break the direct reference to God class
+// This is less coupled since you break the direct reference to God class
 // God class Single Responsibility is to create gods. Not to manage them

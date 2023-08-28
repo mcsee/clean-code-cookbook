@@ -1,6 +1,6 @@
 function createSomething(arguments) {
     // Magic Creation
-    success = false; // we failed
+    success = false; // you failed
 
     // You failed to create
     if (!success) {

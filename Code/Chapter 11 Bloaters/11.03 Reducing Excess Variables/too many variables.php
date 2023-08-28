@@ -34,7 +34,7 @@ function retrieveImagesFrom(array $imageUrls) {
               }
           }
           if (!$found){
-            throw new \Exception('We couldnt find image');
+            throw new \Exception('No image was found');
          }
         // Debugging at this point your context is polluted with variables
         // from previous executions no longer needed

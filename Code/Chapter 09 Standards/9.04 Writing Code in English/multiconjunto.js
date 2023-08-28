@@ -8,7 +8,7 @@ echo elements.size() yields 1
 
 var moreElements = new MultiConjunto();
 // You defined a multiset in Spanish
-// because we are extending the domain
+// because you are extending the domain
 
 moreElements.agregar('hello');
 moreElements.agregar('hello');
