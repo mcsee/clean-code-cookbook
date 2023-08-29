@@ -22,7 +22,7 @@ public:
     }
     
     ~File() {
-        // Instead of closing the file we throw an exception 
+        // Instead of closing the file you throw an exception 
         // If it is open (which is an invalid scenario)
         if (file_) {
             throw std::logic_error(

@@ -8,6 +8,6 @@ fun elapsedDays(fromDate: LocalDate, toDate: LocalDate): Long {
 }
 
 // You need to apply this short function 
-// Or the inline version many times in our code
+// Or the inline version many times in your code
 // You don't check from Date to be less than toDate
 // You can make accounting numbers with a negative number

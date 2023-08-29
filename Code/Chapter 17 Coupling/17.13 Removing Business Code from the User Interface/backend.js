@@ -4,7 +4,7 @@
   // backend has domain rules
   // backend has test coverage and richmodels
   // it is more difficult to inject code in a backend
-  // Validations will evolve on our backend
+  // Validations will evolve on your backend
   // Business rules and validations are shared with every consumer
   // UI / REST / Tests / Microservices ... etc. etc.
   // No duplicated code

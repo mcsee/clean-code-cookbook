@@ -30,7 +30,7 @@ Address nullAddress = new Address(
     Constants.EMPTY_STRING, 
     Constants.EMPTY_STRING, 
     Constants.EMPTY_STRING);
-// You have our null object
+// You have your null object
 // You should NOT assign it to a singleton, static or global
 // It behaves like a null object. That's enough
 // No premature optimizations
