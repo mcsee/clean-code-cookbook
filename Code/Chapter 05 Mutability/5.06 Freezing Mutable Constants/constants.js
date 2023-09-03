@@ -9,7 +9,7 @@ const DISCOUNT_PLATINUM = 0.05; // Error
 const ALL_CONSTANTS = {
   DISCOUNT: {
     PLATINUM = 0.1;
-    GOLD = 0.04;
+    GOLD = 0.05;
     SILVER = 0.02;  
   },
 };

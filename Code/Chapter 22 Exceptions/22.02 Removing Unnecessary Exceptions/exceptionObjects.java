@@ -1,7 +1,3 @@
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
 public class FileReader {
 
     public static void main(String[] args) {
@@ -13,21 +9,21 @@ public class FileReader {
         }
         catch(FileException exception) {
             if (exception.description == 
-                (this.expectionMessages().
-                 errorDescriptionFileTemporaryLocked() {
+                (this.expectedMessages().errorDescriptionFileTemporaryLocked() {
                 // sleep and retry
                 // IF behavior is the same with all the exceptions
                 // just change the text on 
                 // object creation and raise the incorrect instance
             }            
             this.showErrorToUser(exception.messageToUser();
-             // This example is simplified. You should translate the text
+             // This example is simplified. 
+             // You should translate the text
         }                
         finally {
             try {
                 file.close();
              } catch (IOException ioException) {
-ioException.printStackTrace();
+                ioException.printStackTrace();
              }
         }
     }

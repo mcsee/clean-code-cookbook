@@ -1,0 +1,1 @@
+ movie.rate.warnIfNotAllowed(this.age);  
