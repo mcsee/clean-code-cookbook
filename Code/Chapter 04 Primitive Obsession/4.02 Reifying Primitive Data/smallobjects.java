@@ -1,4 +1,4 @@
-Port server = Port.parse(this, "www.kivakit.org:8080");
+Port server = Port.parse(this, "www.example.org:8080");
 // Port is a smallobject with responsibilities and protocol
 
 Port in = server.open(this); // returns a port, not a number

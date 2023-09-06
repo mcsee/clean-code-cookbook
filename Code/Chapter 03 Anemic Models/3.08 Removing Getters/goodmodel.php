@@ -1,4 +1,4 @@
-<?php
+<?
 
 final class Window {
     private $width;

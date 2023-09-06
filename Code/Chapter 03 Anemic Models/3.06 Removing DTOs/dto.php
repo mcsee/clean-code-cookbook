@@ -18,7 +18,7 @@ final class SocialNetworkProfile {
     // Lots of protocol
 }
 
-// If you need to transfer to an External system you need
+// If you need to transfer to an external system you need
 // to duplicate (and maintain) the structure
 
 final class SocialNetworkProfileDTO {
@@ -27,11 +27,11 @@ final class SocialNetworkProfileDTO {
    private $friends; // duplicated to be synchronized
    private $feed; // duplicated to be synchronized
    public function __construct() {
-   // Empty constructor without validations
+        // Empty constructor without validations
    }
 
    // No protocol, just serializers
 }
 
-// If you need to transfer to an External system you create an anemic DTO
+// If you need to transfer to an external system you create an anemic DTO
 $janesProfileToTransfer = new SocialNetworkProfileDTO();

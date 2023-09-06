@@ -1,4 +1,3 @@
-# using time module
 import time
   
 # ts stores the time in seconds

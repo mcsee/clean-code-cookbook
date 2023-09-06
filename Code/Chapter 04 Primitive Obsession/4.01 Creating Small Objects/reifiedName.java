@@ -3,7 +3,7 @@ public class Name {
 
     public Name(String name) {
         this.name = name;
-        // Name has its own creation rules, comparison etc.
+        // Name has its own creation rules, comparison, etc.
         // Might be different than a string
     }
 }
