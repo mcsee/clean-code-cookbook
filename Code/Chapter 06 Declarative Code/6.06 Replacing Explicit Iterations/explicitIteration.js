@@ -1,3 +1,3 @@
-for (i = 0; i < colors.count(), i++) {
-  print(colors[i]);
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
 }

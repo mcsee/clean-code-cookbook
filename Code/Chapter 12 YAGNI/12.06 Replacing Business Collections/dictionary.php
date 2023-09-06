@@ -1,4 +1,4 @@
-<?php
+<?
 
 Namespace Spelling;
 
@@ -21,8 +21,6 @@ final class Dictionary {
 // This has protocol similar to an abstract datatype dictionary
 // And the tests
   
-use PHPUnit\Framework\TestCase;
-
 final class DictionaryTest extends TestCase {
     public function test01EmptyDictionaryHasNoWords() {
         $dictionary = new Dictionary([]);

@@ -6,6 +6,6 @@ class GoodBoss(Boss):
     def __init__(self, name):
         super().__init__(name)
         
-# This is actually a very classification example
+# This is actually a poor classification example
 # Bosses should be immutable but can change their mood
 # with constructive feedback

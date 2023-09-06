@@ -1,14 +1,10 @@
 <?php
 
-Namespace Spelling;
-
 // final class Dictionary is no longer needed
     
 // The tests use a standard class
 // In PHP you use associative arrays
 // Java and other languages have HashTables, Dictionaries etc. etc.
-  
-use PHPUnit\Framework\TestCase;
 
 final class DictionaryTest extends TestCase {
     public function test01EmptyDictionaryHasNoWords() {

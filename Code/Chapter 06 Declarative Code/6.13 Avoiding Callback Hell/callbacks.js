@@ -1,12 +1,19 @@
-var fs = require('fs');
-
-var fileWithData = '/hello.world';  
-fs.readFile(fileWithData, 'utf8', function(err, txt) {  
-    if (err) return console.log(err);
-
-    txt = txt + '\n' + 'Add Data!';
-    fs.writeFile(fileWithData, txt, function(err) {
-        if(err) return console.log(err);
-        console.log('Information added');
+asyncFunc1(function (error, result1) {
+  if (error) {
+    console.log(error);
+  } else {
+    asyncFunc2(function (error, result2) {
+      if (error) {
+        console.log(error);
+      } else {
+        asyncFunc3(function (error, result3) {
+          if (error) {
+            console.log(error);
+          } else {
+            // Nested callback continues...
+          }
+        });
+      }
     });
+  }
 });

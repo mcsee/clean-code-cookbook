@@ -1,6 +1,5 @@
-foreach (color of colors) {
-  print(color);
-}
+colors.forEach((color) => {
+  console.log(color);
+});
 
 // You use closures and arrow functions
-colors.foreach(color => print(color));
