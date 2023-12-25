@@ -1,4 +1,5 @@
-private string[] country_names = {"Germany", "France", "Argentina"} // lots more
+private string[] country_names = {"Germany", "France", "Argentina"} 
+// and lots more
 private string[] Internet_code_suffixes= {"de", "fr", "ar" } // more
  
 private Dictionary<string, string> Internet_codes = 

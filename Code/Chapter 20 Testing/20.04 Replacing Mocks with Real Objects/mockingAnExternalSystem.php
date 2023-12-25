@@ -22,7 +22,8 @@ class PaymentTest extends \PHPUnit_Framework_TestCase
         $response->transaction_id = 123;
 
         $authorizeNet = $this->getMockBuilder('\AuthorizeNetAIM')
-            ->setConstructorArgs(array($payment::API_ID, $payment::TRANS_KEY))
+            ->setConstructorArgs(
+                array($payment::API_ID, $payment::TRANS_KEY))
             ->getMock();
         
         // External system is mocked

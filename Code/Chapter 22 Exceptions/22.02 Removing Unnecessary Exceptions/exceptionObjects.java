@@ -9,7 +9,8 @@ public class FileReader {
         }
         catch(FileException exception) {
             if (exception.description == 
-                (this.expectedMessages().errorDescriptionFileTemporaryLocked() {
+                (this.expectedMessages()
+                 .errorDescriptionFileTemporaryLocked(){
                 // sleep and retry
                 // IF behavior is the same with all the exceptions
                 // just change the text on 

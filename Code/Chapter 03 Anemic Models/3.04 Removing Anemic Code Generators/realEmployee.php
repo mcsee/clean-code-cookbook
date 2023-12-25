@@ -12,7 +12,8 @@ final class Employee {
          return $this->name;
          // This is not a getter.
          // It is Employee’s responsibility to tell her/his name
-         // Accidentally, you have implemented an attribute with the same name
+         // Accidentally, 
+         // you have implemented an attribute with the same name
     }
 }
 

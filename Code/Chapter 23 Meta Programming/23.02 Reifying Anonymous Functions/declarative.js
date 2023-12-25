@@ -7,7 +7,8 @@ class ElementComparator{
 }
 
 class BubbleSortingStrategy {
-  // You have a strategy, you can't unit test it, change for a polymorphic,
+  // You have a strategy, you can't unit test it,
+  // change for a polymorphic,
   // Swap and benchmark algorithms etc.
   constructor(collection, comparer) {
     this._elements = collection;
@@ -21,7 +22,8 @@ class BubbleSortingStrategy {
           innerIterator < this.size() - outerIterator - 1;
           innerIterator++) {
         if (this._comparer.greatherThan(
-          this._elements[innerIterator], this._elements[ innerIterator + 1])) {
+          this._elements[innerIterator],
+            this._elements[ innerIterator + 1])) {
              this.swap(innerIterator);  
         }
       } 
@@ -40,4 +42,5 @@ class BubbleSortingStrategy {
 } 
 
 scores = [9, 5, 2, 7, 23, 1, 3]; 
-sorted = new BubbleSortingStrategy(scores,new ElementComparator()).sorted();
+sorted = new 
+  BubbleSortingStrategy(scores,new ElementComparator()).sorted();

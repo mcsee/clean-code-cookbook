@@ -5,8 +5,9 @@ class Job {
    System.out.println(this.address().street());
    System.out.println(this.address().city());
    System.out.println(this.address().ZipCode());  
-  // You might even move this responsibility directly to the address !
-  // Some address information is relevant to a job and not for package tracking
+  // You might even move this responsibility directly to the address!
+  // Some address information is relevant to a job 
+  // and not for package tracking
  } 
 }
 

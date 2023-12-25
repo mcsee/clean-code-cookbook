@@ -3,7 +3,8 @@
 data class Interval(val fromDate: LocalDate, val toDate: LocalDate) {
     init {
         if (fromDate >= toDate) {
-            throw IllegalArgumentException("From date must be before to date")
+            throw IllegalArgumentException(
+                "From date must be before to date")
         }
         // Of course the Interval must be immutable
         // By using the keyword 'data'

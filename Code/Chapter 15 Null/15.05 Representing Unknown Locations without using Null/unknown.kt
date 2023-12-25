@@ -4,7 +4,7 @@ abstract class Location {
         unknownAction: () -> Unit)
 }
 
-class EarthLocation(val latitude: Double, val longitude: Double) : Location() {
+class EarthLocation(val latitude: Double, val longitude: Double): Location(){
     override fun calculateDistance(other: Location): Double {
         val earthRadius = 6371.0
         val latDistance = Math.toRadians(

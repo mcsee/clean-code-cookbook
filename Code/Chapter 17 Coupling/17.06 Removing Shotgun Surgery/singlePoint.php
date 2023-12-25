@@ -21,7 +21,8 @@ final class SocialNetwork {
         if (!$this->user->isLogged()) {
             throw new Exception('User is not logged');
             // This is just a simplification to show the code smell
-            // Operations should be defined as objects with preconditions etc.
+            // Operations should be defined as objects with preconditions
+            // etc.
         }
     }
 }

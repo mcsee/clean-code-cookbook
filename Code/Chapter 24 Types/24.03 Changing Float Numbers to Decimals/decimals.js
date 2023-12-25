@@ -14,4 +14,5 @@ console.log((new Decimal(2).plus(new Decimal(1))).toString());
 
 // You can represent the numbers 
 // with a Decimal class (storing only the numerator)
-// or with a generic Fraction class (storing both the numerator and denominator)
+// or with a generic Fraction class
+// (storing both the numerator and denominator)
