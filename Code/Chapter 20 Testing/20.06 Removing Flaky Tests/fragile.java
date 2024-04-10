@@ -8,6 +8,7 @@ public abstract class SetTest {
         s.add("green");
         s.add("blue");
         assertEquals("{green. blue}", s.toString());
-       // This is fragile since it depends on set sort (which is not defined)
+       // This is fragile
+       // since it depends on set sort (which is not defined)
     }   
 }

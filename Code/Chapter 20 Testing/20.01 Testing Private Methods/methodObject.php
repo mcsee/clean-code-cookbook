@@ -18,7 +18,8 @@ final class ParsecsToLightYearsConverter {
 
 final class ParsecsToLightYearsConverterTest extends TestCase {
   public function testConvert0ParsecsReturns0LightYears() {
-    $this->assertEquals(0, (new ParsecsToLightYearsConverter())->convert(0));
+    $this->assertEquals(0, 
+      (new ParsecsToLightYearsConverter())->convert(0));
   }
     // You can add lots of tests and rely on this object
     // So you don't need to test Star conversions

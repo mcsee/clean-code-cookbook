@@ -7,9 +7,9 @@ class ElementComparator{
 }
 
 class BubbleSortingStrategy {
-  // You have a strategy, you can't unit test it,
+  // You have a strategy, you can unit test it,
   // change for a polymorphic,
-  // Swap and benchmark algorithms etc.
+  // Swap and benchmark algorithms, etc.
   constructor(collection, comparer) {
     this._elements = collection;
     this._comparer = comparer;

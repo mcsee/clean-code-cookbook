@@ -1,6 +1,6 @@
 try {
-	for (int i = 0;; i++)
-		array[i]++;
+	for (int index = 0;; index++)
+		array[index]++;
 	} catch (ArrayIndexOutOfBoundsException e) {}
 
 // Endless loop without end condition

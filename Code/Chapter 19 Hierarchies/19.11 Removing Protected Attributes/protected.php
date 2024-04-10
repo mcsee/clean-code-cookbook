@@ -28,7 +28,7 @@ final class Ipad extends Idevice {
 
 final class Iphone extends Idevice {
 
-  private $phoneModule:
+  private $phoneModule;
  
   public __construct(Battery $battery, 
                      OperatingSystem $ios,

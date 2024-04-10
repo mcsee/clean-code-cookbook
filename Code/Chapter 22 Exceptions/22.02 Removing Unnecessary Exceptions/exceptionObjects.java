@@ -14,7 +14,7 @@ public class FileReader {
                 // sleep and retry
                 // IF behavior is the same with all the exceptions
                 // just change the text on 
-                // object creation and raise the incorrect instance
+                // object creation and raise the correct instance
             }            
             this.showErrorToUser(exception.messageToUser();
              // This example is simplified. 

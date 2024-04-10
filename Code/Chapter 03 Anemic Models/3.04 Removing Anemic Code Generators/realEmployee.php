@@ -4,7 +4,8 @@ final class Employee {
     private $name;
     private $workingStatus;
 
-    public function __construct(string $name, WorkingStatus $workingStatus) {
+    public function __construct(
+        string $name, WorkingStatus $workingStatus) {
         // Constructor and initialization code goes here
     }
 
